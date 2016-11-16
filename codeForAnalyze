@@ -1,0 +1,12 @@
+program lab1
+var param1, param2:integer, param3:real;
+begin
+param1:= 991 * 2 + 2;
+for counter=1 to 5 step 1
+	if counter > param1 then
+		param1:= 3;
+	else
+		param1:= 1;
+	endif
+next
+end.
